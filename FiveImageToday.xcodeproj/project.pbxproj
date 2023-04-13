@@ -11,6 +11,8 @@
 		9EBF26B329E7C0CB00BF0564 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBF26B229E7C0CB00BF0564 /* ContentView.swift */; };
 		9EBF26B529E7C0CD00BF0564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBF26B429E7C0CD00BF0564 /* Assets.xcassets */; };
 		9EBF26B829E7C0CD00BF0564 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBF26B729E7C0CD00BF0564 /* Preview Assets.xcassets */; };
+		9EBF26C129E7C1A100BF0564 /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBF26C029E7C1A100BF0564 /* ImageCard.swift */; };
+		9EBF26C329E7C1AF00BF0564 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBF26C229E7C1AF00BF0564 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9EBF26B229E7C0CB00BF0564 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9EBF26B429E7C0CD00BF0564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EBF26B729E7C0CD00BF0564 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EBF26C029E7C1A100BF0564 /* ImageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
+		9EBF26C229E7C1AF00BF0564 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		9EBF26AF29E7C0CB00BF0564 /* FiveImageToday */ = {
 			isa = PBXGroup;
 			children = (
+				9EBF26BF29E7C18F00BF0564 /* Models */,
+				9EBF26BE29E7C18500BF0564 /* Views */,
 				9EBF26B029E7C0CB00BF0564 /* FiveImageTodayApp.swift */,
 				9EBF26B229E7C0CB00BF0564 /* ContentView.swift */,
 				9EBF26B429E7C0CD00BF0564 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				9EBF26B729E7C0CD00BF0564 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EBF26BE29E7C18500BF0564 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9EBF26C229E7C1AF00BF0564 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9EBF26BF29E7C18F00BF0564 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EBF26C029E7C1A100BF0564 /* ImageCard.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EBF26B329E7C0CB00BF0564 /* ContentView.swift in Sources */,
+				9EBF26C129E7C1A100BF0564 /* ImageCard.swift in Sources */,
+				9EBF26C329E7C1AF00BF0564 /* Home.swift in Sources */,
 				9EBF26B129E7C0CB00BF0564 /* FiveImageTodayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
