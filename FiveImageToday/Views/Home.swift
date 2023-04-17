@@ -13,8 +13,8 @@ struct Home: View{
     private let _height:CGFloat = 600.0
     private let _width: CGFloat = 340.0
     private let _cornerRadius: CGFloat = 25.0
-    private let _imageWidth: CGFloat = 600.0
-    private let _imageHeight: CGFloat = 340.0
+    private let _imageWidth: CGFloat = 340.0
+    private let _imageHeight: CGFloat = 600.0
     var body: some View{
         GeometryReader{
             let size = $0.size
@@ -42,8 +42,10 @@ struct Home: View{
         .frame(height: self._height)
         .onAppear{
             /// loading listOfCards
-            for color in [Color.red, Color.blue, Color.yellow,Color.orange,Color.brown]{
-                listOfCards.append(.init(color:color))
+            for (index, color) in [Color.red, Color.blue, Color.yellow,Color.orange,Color.brown].enumerated(){
+                let image_url: String = "http://hd1.bitquicker.com/apps/fiveimagetoday/images/0\(index+1).png"
+                print(image_url)
+                listOfCards.append(.init(color:color, image_url: image_url))
             }
         }
     }
